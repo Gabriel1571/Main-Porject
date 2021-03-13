@@ -1,0 +1,17 @@
+<form action="/action_page.php">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname">
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname">
+    <label for="mname">Middle name:</label>
+    <input type="text" id="mname" name="mname">
+    <input type="button" value="Submit" onclick="callsomething()">
+</form>
+<script>
+function callsomething(){
+   var value = document.getElementById("fname").value;
+    alert("Thank you " + value)
+}
+</script>
+
+    
